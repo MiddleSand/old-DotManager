@@ -1,0 +1,8 @@
+list-title: "<green>{0}:</green>\n"
+sidebar-list-entry: "<click:run_command:'/sidebar {0}'><dark_gray>- </dark_gray><green>{0}</green></click>\n"
+sidebar-list-footnote: "
+<gray><i>Use </i></gray><light_purple><i>/</i></light_purple><dark_purple><i>sidebar </i></dark_purple><light_purple><i><sidebar></i></light_purple><gray><i> or click to set to any of these options.</i></gray>"
+difficulty-list-entry: "<click:suggest_command:'/difficulty {0}'><dark_gray>- </dark_gray><color:#{1}>{0}</color></click>\n"
+difficulty-list-footnote: "\n<gray><i>Use </i></gray><light_purple><i>/</i></light_purple><dark_purple><i>difficulty </i></dark_purple><light_purple><i><difficulty></i></light_purple><gray><i> or click to suggest any of these options.</i></gray>"
+success-action: "<green>Successfully {0}</green>"
+difficulty-success-action: " <color:#{0}>{1}</color><green>{2}</green>"

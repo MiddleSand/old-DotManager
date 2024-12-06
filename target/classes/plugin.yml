@@ -1,0 +1,51 @@
+name: DotManager
+main: dotManager.DotManager
+version: 0.0.1
+load: STARTUP
+depend: [DotAPI, PlaceholderAPI, Vault, VaultEvents, LuckPerms, CMIEInjector, mcMMO, VotingPlugin]
+api-version: 1.21
+commands:
+    crash:
+        description: Crashes the client of a specific user
+        permission: dotmanager.crash
+        usage: "§cUsage: /<command> <player>"
+    sidebar:
+        description: Sidebar settings
+        permission: dotmanager.sidebar
+        usage: "§cUsage: /<command> <option | ?>"
+    difficulty:
+        description: Difficulty settings
+        permission: dotmanager.difficulty
+        usage: "§cUsage: /<command> <option | ?>"
+    supersmite:
+        description: fry somebody
+        permission: dotmanager.supersmite
+        usage: "§cUsage: /<command> <player>"
+    bite:
+        description: fry somebody
+        permission: dotmanager.supersmite
+        usage: "§cUsage: /<command> <player>"
+    fish:
+        description: fry somebody
+        permission: dotmanager.supersmite
+        usage: "§cUsage: /<command> <player>"
+    prestige:
+        description: Gets someone`s Prestige value
+        permission: dotmanager.prestigeget
+        usage: "§cUsage: /<command> <player>"
+    setprestige:
+        description: Sets someone`s Prestige value
+        permission: dotmanager.prestigeset
+        usage: "§cUsage: /<command> <player> <value>"
+    adjustprestige:
+        description: Adjusts someone`s Prestige value
+        permission: dotmanager.prestigeadjust
+        usage: "§cUsage: /<command> <player> <adjusting value>"
+    appraise:
+        description: Appraises held item of user
+        permission: dotmanager.appraise
+        usage: "§cUsage: /<command> <player>"
+    appraiseall:
+        description: Appraises all possibly appraisable items of user
+        permission: dotmanager.appraiseall
+        usage: "§cUsage: /<command> <player>"

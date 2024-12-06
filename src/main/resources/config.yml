@@ -1,0 +1,62 @@
+# e
+
+modules:
+  tax-rate: true
+  master: true
+  claims: true
+  economy: true
+  prestige: true
+  quality: true
+  
+  #Set to negative numbers to *lower* prestige instead of increasing it (though idk why youd ever want to make killing a dragon a bad thing or dying a good thing XD)
+prestige-values:
+
+  default-prestige: 100.00
+  
+  death-prestige: 0.1
+  
+  dragon-prestige: 0.10
+  
+  wither-prestige: 0.2
+  
+quality-chances:
+  poor: 20
+  good: 10
+  great: 5
+  excellent: 2.5
+  flawless: 1.5
+  
+## standard tags
+miner-permission: "tags.miner"
+drill-permission: "tags.drill"
+woodcutter-permission: ""
+treeyeeter-permission: ""
+excavator-permission: ""
+earthmover-permission: ""
+economisery-permission: "tags.economisery"
+diditall-permission: ""
+didnothing-permission: ""
+freefall-permission: ""
+cashin-permission: ""
+factory-permission: ""
+wut-permission: ""
+noob-permission: "tags.noob"
+dunkedon-permission: ""
+influencial-permission: ""
+master-permission: ""
+
+## additonal tags
+ketchup-permission: ""
+pepsi-permission: "tags.pepsi"
+coke-permission: "tags.coke"
+self-permission: "tags.yes"
+
+## ranks perms
+lighter-permission: "group.lighter"
+lighter-prestige: 110
+traveler-permission: "group.traveler"
+traveler-prestige: 130
+routier-permission: "group.routier"
+routier-prestige: 160
+dotist-permission: "group.dotist"
+dotist-prestige: 200
